@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:padding="24dp"
+    android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnDrive"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="200dp"
+        android:text="Előre/Hátra (katt)"/>
+
+
+    <Button
+        android:id="@+id/btnSteer"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="200dp"
+        android:text="Kanyar (nyomva tart)"/>
+</LinearLayout>
